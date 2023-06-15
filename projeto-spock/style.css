@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+
+}
+
+.nav-bar{
+    display: flex;
+    gap: 2.5rem;
+    border: 1px solid red;
+    font-weight: 200;
+    
+}
+
+.spock{
+    font-weight: 700;
+    border: 1px solid blue;
+    font-size: 1.8rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    gap: 55rem;
+    border: 1px solid green;
+}
+
+.button-profile{
+    height: 4.5rem;
+    background: none;
+    width: 18rem;
+}
